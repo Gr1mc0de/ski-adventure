@@ -1,0 +1,88 @@
+<!doctype html>
+<htmL>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>The ultimate ski adventure</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <main>
+                <h1>Register for the ultimate ski adventure</h1>
+                <h2>Your basic info</h2>
+                <div class="required">
+                    <h3>Name and surname</h3>
+                    <h3 class="star">&#42;</h3>
+                </div>
+                <input required>
+                <div class="email-password">
+                    <div class="email">
+                        <div class="required">
+                            <h3>Email</h3>
+                            <h3 class="star">&#42;</h3>
+                        </div>
+                        <input placeholder="example@mail.com" required>
+                        <br>
+                    </div>
+                    <div class="password">
+                        <div class="required">
+                            <h3>Password</h3>
+                            <h3 class="star">&#42;</h3>
+                        </div>
+                        <input type="password" placeholder="*******" required>
+                    </div>
+                </div>
+                <div class="age">
+                    <h3>Age</h3>
+                    <div class="range">
+                        <input class="circle" type="checkbox">
+                        <label>Under 18</label>
+                    </div>
+                    <div class="range">
+                        <input class="circle" type="checkbox">
+                        <label>Over 18</label>
+                    </div>
+                </div>
+                <h2 class="about">Tell us about yourself</h2>
+                <h3>Your biography</h3>
+                <textarea></textarea>
+                <h3>Select location</h3>
+                <select>
+                    <option>Mayrhofen</option>
+                </select>
+                <h3>What equipment would you like to rent?</h3>
+                <div class="equipment">
+                    <input class="square" type="checkbox">
+                    <label>Skis</label>
+                </div>
+                <div class="equipment">
+                    <input class="square" type="checkbox">
+                    <label>Helmet</label>
+                </div>
+                <div class="equipment">
+                    <input class="square" type="checkbox">
+                    <label>Goggles</label>
+                </div>
+                <div class="equipment">
+                    <input class="square" type="checkbox">
+                    <label>Ski boots</label>
+                </div>
+                <div class="equipment">
+                    <input class="square" type="checkbox">
+                    <label>Ski poles</label>
+                </div>
+                <div class="submit">
+                    <input type="reset" class="reset-btn" value="Reset">
+                    <input type="submit" class="submit-btn" value="Submit">
+                </div>
+            </main>
+            <aside>
+                <h1 class="banner">Epic experience<br> in the snow</h1>
+            </aside>  
+        </form>
+    </body>
+</htmL>
