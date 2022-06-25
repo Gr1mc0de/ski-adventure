@@ -211,6 +211,26 @@ aside {
     margin: 40% 16%;
 }
 
+@media (max-width: 1279px) {
+    .about {
+        margin-top: 8.5%;
+    }
+
+    .submit {
+        margin-top: 8.5%;
+    }
+}
+
+@media (max-width: 999px) {
+    .about {
+        margin-top: 9.9%;
+    }
+
+    .submit {
+        margin-top: 9.9%;
+    }
+}
+
 @media (max-width: 769px) {
     .email-password {
         flex-direction: column;
@@ -220,14 +240,45 @@ aside {
     .password {
         width: auto;
     }
+
+    .about {
+        margin-top: 11.9%;
+    }
+
+    .submit {
+        margin-top: 11.9%;
+    }
     
     .banner {
         display: none;
     }
 }
 
+@media (max-width: 555px) {
+    .about {
+        margin-top: 15.5%;
+    }
+
+    .submit {
+        margin-top: 15.5%;
+    }
+
+    .reset-btn,
+    .submit-btn {
+        font-size: 17px;
+    }
+}
+
 @media (max-width: 369px) {
     .star {
         display: none;
+    }
+
+    .about {
+        margin-top: 19%;
+    }
+
+    .submit {
+        margin-top: 19%;
     }
 }
