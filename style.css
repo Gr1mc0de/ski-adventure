@@ -112,7 +112,7 @@ select:hover {
 }
 
 input[class="circle"]:checked {
-    background: url(i/circle.png) 50% 49% / 69% no-repeat;
+    background: url(i/circle.png) 50% 51% / 69% no-repeat;
     background-color: #E2E5ED;
 }
 
@@ -166,6 +166,7 @@ input[class="square"]:checked {
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    transition: font-size 1s;
 }
 
 .reset-btn {
@@ -211,29 +212,32 @@ aside {
     margin: 40% 16%;
 }
 
-@media (max-width: 1279px) {
-    .about {
-        margin-top: 8.5%;
-    }
-
-    .submit {
-        margin-top: 8.5%;
-    }
-}
 
 @media (max-width: 999px) {
     .about {
-        margin-top: 9.9%;
+        margin-top: 27.5px;
+        transition: margin-top 1s;
     }
 
     .submit {
-        margin-top: 9.9%;
+        margin-top: 27.5px;
+        transition: margin-top 1s;
     }
 }
 
 @media (max-width: 769px) {
+    h2 {
+        margin-top: 22px;
+        transition: margin-top 1s;
+    }
+
     .email-password {
         flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .email {
+        margin-top: 6%;
     }
 
     .email,
@@ -242,12 +246,12 @@ aside {
     }
 
     .about {
-        margin-top: 11.9%;
+        margin-top: 36px;
     }
 
     .submit {
-        margin-top: 11.9%;
-    }
+        margin-top: 29px;
+    } 
     
     .banner {
         display: none;
@@ -255,12 +259,8 @@ aside {
 }
 
 @media (max-width: 555px) {
-    .about {
-        margin-top: 15.5%;
-    }
-
-    .submit {
-        margin-top: 15.5%;
+    h2 {
+        margin-top: 27px;
     }
 
     .reset-btn,
@@ -272,13 +272,5 @@ aside {
 @media (max-width: 369px) {
     .star {
         display: none;
-    }
-
-    .about {
-        margin-top: 19%;
-    }
-
-    .submit {
-        margin-top: 19%;
     }
 }
